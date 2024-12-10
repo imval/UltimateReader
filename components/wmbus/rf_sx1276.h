@@ -17,21 +17,21 @@
 
 #define UNUSED_PIN                   (0)
 
-#define I2C_SDA                     18
-#define I2C_SCL                     17
+#define I2C_SDA                     21
+#define I2C_SCL                     22
 #define OLED_RST                    UNUSED_PIN
 
 #define RADIO_SCLK_PIN              5
-#define RADIO_MISO_PIN              3
-#define RADIO_MOSI_PIN              6
-#define RADIO_CS_PIN                7
+#define RADIO_MISO_PIN              19
+#define RADIO_MOSI_PIN              27
+#define RADIO_CS_PIN                18
 
-#define SDCARD_MOSI                 11
+#define SDCARD_MOSI                 15
 #define SDCARD_MISO                 2
 #define SDCARD_SCLK                 14
 #define SDCARD_CS                   13
 
-#define BOARD_LED                   37
+#define BOARD_LED                   25
 #define LED_ON                      HIGH
 
 #define BUTTON_PIN                  0
